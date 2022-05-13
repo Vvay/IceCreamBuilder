@@ -1,3 +1,8 @@
+package builders;
+
+import components.*;
+import models.IceCream;
+
 public class IceCreamBuilder implements Builder {
     private Wafer wafer;
     private Flavor flavor;
