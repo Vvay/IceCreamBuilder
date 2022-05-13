@@ -1,3 +1,8 @@
+package builders;
+
+import components.*;
+import models.Ingredients;
+
 public class IngredientsBuilder implements Builder {
     private Wafer wafer;
     private Flavor flavor;
