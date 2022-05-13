@@ -1,3 +1,7 @@
+package models;
+
+import components.*;
+
 public class IceCream {
     private final Wafer wafer;
     private final Flavor flavor;
@@ -35,7 +39,7 @@ public class IceCream {
 
     @Override
     public String toString() {
-        return "IceCream{" +
+        return "icecreams.IceCream{" +
                 "wafer=" + wafer +
                 ", flavor=" + flavor +
                 ", sprinkles=" + sprinkles +
